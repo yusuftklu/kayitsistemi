@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="OgretimGorevlisiFormu">
+  <grid id="27dc6" binding="OgretimGorevlisiPanel" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1507" height="930"/>
+    </constraints>
+    <properties>
+      <background color="-10264736"/>
+      <enabled value="true"/>
+      <font size="24"/>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none" title="Öğretim Görevlisi Kayıt Sayfası">
+      <font size="36"/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <component id="e5357" class="javax.swing.JTextField" binding="textOgretimGorevlisiNo">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1723d" class="javax.swing.JLabel" binding="OgretimGorevlisiNo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Öğretim Görevlisi No:"/>
+        </properties>
+      </component>
+      <component id="3ded8" class="javax.swing.JTextField" binding="textOgretimGorevlisiAd">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8eb0c" class="javax.swing.JLabel" binding="OgretimGorevlisiAd">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Öğretim Görevlisi Adı:"/>
+        </properties>
+      </component>
+      <component id="f17f5" class="javax.swing.JTextField" binding="textOgretimGorevlisiSoyad">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4695c" class="javax.swing.JLabel" binding="OgretimGorevlisiSoyad">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Öğretim Görevlisi Soyadı:"/>
+        </properties>
+      </component>
+      <component id="50a4e" class="javax.swing.JComboBox" binding="comboBoxBolum">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-394241"/>
+          <foreground color="-15921888"/>
+          <model>
+            <item value="Bilgisayar Programcılığı"/>
+            <item value="Aşçılık"/>
+            <item value="Endüstri Mühendisliği"/>
+            <item value="Makine Mühendisliği"/>
+            <item value="Yazılım Mühendisliği"/>
+            <item value="Gastronomi"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6d7be" class="javax.swing.JLabel" binding="Bolum">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Öğretim Görevlisi Bölümü:"/>
+        </properties>
+      </component>
+      <component id="67253" class="javax.swing.JTextField" binding="textField3">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3e40" class="javax.swing.JLabel" binding="arama">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Arama"/>
+        </properties>
+      </component>
+      <component id="595c1" class="javax.swing.JButton" binding="OgretimGorevlisiKaydet">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font size="20"/>
+          <foreground color="-394241"/>
+          <text value="Kaydet"/>
+          <toolTipText value="Öğretim Görevlisi Bilgilerini Kaydet&#10;"/>
+        </properties>
+      </component>
+      <component id="c3766" class="javax.swing.JButton" binding="menuButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Menu"/>
+          <toolTipText value="Menü sayfasına git"/>
+        </properties>
+      </component>
+      <component id="6edfb" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
